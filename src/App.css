@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cinzel Decorative', cursive;
+  background-color: #3498db;
+  color: white;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header,
+footer {
+  background-color: #8e44ad;
+  padding: 15px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+  flex-grow: 1;
+}
+
+.quote-container {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+.quote-box {
+  background-color: #c0392b;
+  color: white;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.quote-box p {
+  margin: 0;
+}
+
+.category {
+  font-style: italic;
+  color: #e74c3c;
+}
+
+.author {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+footer {
+  margin-top: auto;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
