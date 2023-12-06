@@ -1,0 +1,78 @@
+.movie-box {
+    background-color: #8e44ad;
+    color: white;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movie-box:hover {
+    transform: scale(1.05);
+}
+
+.movie-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.movie-details {
+    text-align: center;
+}
+
+.year {
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+.genre {
+    font-style: italic;
+    color: #3498db;
+}
+
+.imdb-link a {
+    color: #f39c12;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.imdb-link a:hover {
+    text-decoration: underline;
+}
+
+.movie-app {
+    text-align: center;
+    padding: 20px;
+    background-color: #27ae60;
+    color: white;
+}
+
+header,
+footer {
+    background-color: #8e44ad;
+    padding: 15px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
